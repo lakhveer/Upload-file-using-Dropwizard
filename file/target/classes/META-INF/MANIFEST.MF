@@ -1,0 +1,42 @@
+Manifest-Version: 1.0
+Built-By: matrixm
+Class-Path: dropwizard-core-1.0.0.jar dropwizard-util-1.0.0.jar jackso
+ n-annotations-2.7.6.jar guava-19.0.jar jsr305-3.0.1.jar joda-time-2.9
+ .4.jar dropwizard-jackson-1.0.0.jar jackson-core-2.7.6.jar jackson-da
+ tabind-2.7.6.jar jackson-datatype-guava-2.7.6.jar jackson-datatype-js
+ r310-2.7.6.jar jackson-datatype-jdk8-2.7.6.jar jackson-module-afterbu
+ rner-2.7.6.jar jackson-datatype-joda-2.7.6.jar slf4j-api-1.7.21.jar l
+ ogback-classic-1.1.7.jar dropwizard-validation-1.0.0.jar hibernate-va
+ lidator-5.2.4.Final.jar jboss-logging-3.2.1.Final.jar classmate-1.3.0
+ .jar javax.el-3.0.0.jar dropwizard-configuration-1.0.0.jar jackson-da
+ taformat-yaml-2.7.6.jar snakeyaml-1.15.jar commons-lang3-3.4.jar drop
+ wizard-logging-1.0.0.jar metrics-logback-3.1.2.jar jul-to-slf4j-1.7.2
+ 1.jar logback-core-1.1.7.jar log4j-over-slf4j-1.7.21.jar jcl-over-slf
+ 4j-1.7.21.jar jetty-util-9.3.9.v20160517.jar dropwizard-metrics-1.0.0
+ .jar dropwizard-jersey-1.0.0.jar jersey-metainf-services-2.23.1.jar j
+ ersey-bean-validation-2.23.1.jar metrics-jersey2-3.1.2.jar jackson-ja
+ xrs-json-provider-2.7.6.jar jackson-jaxrs-base-2.7.6.jar jackson-modu
+ le-jaxb-annotations-2.7.6.jar jetty-server-9.3.9.v20160517.jar javax.
+ servlet-api-3.1.0.jar jetty-io-9.3.9.v20160517.jar jetty-webapp-9.3.9
+ .v20160517.jar jetty-xml-9.3.9.v20160517.jar jetty-continuation-9.3.9
+ .v20160517.jar dropwizard-servlets-1.0.0.jar metrics-annotation-3.1.2
+ .jar dropwizard-jetty-1.0.0.jar metrics-jetty9-3.1.2.jar jetty-servle
+ t-9.3.9.v20160517.jar jetty-security-9.3.9.v20160517.jar jetty-servle
+ ts-9.3.9.v20160517.jar jetty-http-9.3.9.v20160517.jar dropwizard-life
+ cycle-1.0.0.jar metrics-core-3.1.2.jar metrics-jvm-3.1.2.jar metrics-
+ servlets-3.1.2.jar metrics-json-3.1.2.jar metrics-healthchecks-3.1.2.
+ jar dropwizard-request-logging-1.0.0.jar logback-access-1.1.7.jar arg
+ parse4j-0.7.0.jar jetty-setuid-java-1.0.3.jar commons-fileupload-1.3.
+ jar commons-io-2.2.jar jaxrs-ri-2.23.1.jar jersey-common-2.23.1.jar j
+ avax.ws.rs-api-2.0.1.jar javax.annotation-api-1.2.jar jersey-guava-2.
+ 23.1.jar hk2-api-2.4.0-b34.jar hk2-utils-2.4.0-b34.jar aopalliance-re
+ packaged-2.4.0-b34.jar javax.inject-2.4.0-b34.jar hk2-locator-2.4.0-b
+ 34.jar javassist-3.20.0-GA.jar osgi-resource-locator-1.0.1.jar jersey
+ -media-jaxb-2.23.1.jar jersey-client-2.23.1.jar jersey-server-2.23.1.
+ jar validation-api-1.1.0.Final.jar jersey-container-servlet-core-2.23
+ .1.jar jersey-container-servlet-2.23.1.jar jersey-media-multipart-2.2
+ 3.1.jar mimepull-1.9.6.jar
+Build-Jdk: 1.8.0_101
+Created-By: Maven Integration for Eclipse
+Main-Class: com.lakhi.file.configApplication
+
