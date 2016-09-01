@@ -23,7 +23,7 @@ public class fileResource {
 	public String uploadFile(@FormDataParam("file") InputStream is,
 			@FormDataParam("file") FormDataContentDisposition fileDetail, @FormDataParam("name") String name) {
 				
-		String fileLocation = "/home/matrixm/" + fileDetail.getFileName();
+		String fileLocation = "/home/matrixm/img/" + new Random().nextInt(1000) + "_" + fileDetail.getFileName();
 						
 		try {
 
