@@ -4,13 +4,11 @@ import java.io.File;
 import java.io.FileOutputStream;
 import java.io.InputStream;
 
-import javax.servlet.http.HttpServletRequest;
 import javax.ws.rs.Consumes;
 import javax.ws.rs.GET;
 import javax.ws.rs.POST;
 import javax.ws.rs.Path;
 import javax.ws.rs.Produces;
-import javax.ws.rs.core.Context;
 import javax.ws.rs.core.MediaType;
 
 import org.glassfish.jersey.media.multipart.FormDataContentDisposition;
@@ -19,14 +17,11 @@ import org.glassfish.jersey.media.multipart.FormDataParam;
 @Path("/file")
 public class fileResource {
 
-	@Context
-	HttpServletRequest request;
-	
 	@POST
 	@Consumes({MediaType.MULTIPART_FORM_DATA,MediaType.APPLICATION_JSON})
 	@Produces({MediaType.MULTIPART_FORM_DATA,MediaType.APPLICATION_JSON})
 	public String uploadFile(@FormDataParam("file") InputStream is,
-			@FormDataParam("file") FormDataContentDisposition fileDetail) {
+			@FormDataParam("file") FormDataContentDisposition fileDetail, @FormDataParam("name") String name) {
 				
 		String fileLocation = "/home/matrixm/" + fileDetail.getFileName();
 						
@@ -46,7 +41,7 @@ public class fileResource {
 			ex.printStackTrace();
 		}
 
-		return "File successfully uploaded to : " + fileLocation +"\n Request = "+request.getContextPath();
+		return "File successfully uploaded to : " + fileLocation + "\n Name = " + name;
 	}
 
 	@GET
